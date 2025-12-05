@@ -1,0 +1,24 @@
+name: FakeJoin
+main: io.github.iidogninjx1.fakejoin.FakeJoinPlugin
+version: 1.0.0
+api-version: "1.21"
+author: iidogninjx1
+commands:
+  fakejoin:
+    description: Broadcast a fake join message to all players.
+    usage: /fakejoin <playerName> [custom message]
+    permission: fakejoin.use
+    permission-message: You don't have permission to use this command.
+  fakeleave:
+    description: Broadcast a fake leave message to all players.
+    usage: /fakeleave <playerName> [custom message]
+    permission: fakeleave.use
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  fakejoin.use:
+    description: Allows using /fakejoin
+    default: op
+  fakeleave.use:
+    description: Allows using /fakeleave
+    default: op
