@@ -40,7 +40,8 @@ public class FakeLeaveCommand implements CommandExecutor, TabCompleter {
             // Allow color codes with &
             message = ChatColor.translateAlternateColorCodes('&', combined);
         } else {
-            message = ChatColor.YELLOW + targetName + ChatColor.WHITE + " left the game";
+            // Match vanilla Minecraft leave color (yellow)
+            message = ChatColor.YELLOW + targetName + " left the game";
         }
 
         Bukkit.broadcastMessage(message);

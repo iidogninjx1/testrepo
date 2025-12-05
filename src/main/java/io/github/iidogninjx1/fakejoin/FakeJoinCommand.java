@@ -40,7 +40,8 @@ public class FakeJoinCommand implements CommandExecutor, TabCompleter {
             // Allow color codes with &
             message = ChatColor.translateAlternateColorCodes('&', combined);
         } else {
-            message = ChatColor.GREEN + targetName + ChatColor.WHITE + " joined the game";
+            // Match vanilla Minecraft join color (yellow)
+            message = ChatColor.YELLOW + targetName + " joined the game";
         }
 
         Bukkit.broadcastMessage(message);

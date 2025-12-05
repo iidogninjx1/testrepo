@@ -3,7 +3,7 @@
 A small Bukkit plugin that broadcasts fake join messages to all players.
 
 Features
-- /fakejoin <playerName> to broadcast a default green "<player> joined the game" message
+ - /fakejoin <playerName> to broadcast a default yellow "<player> joined the game" message
 - /fakejoin <playerName> <message...> to broadcast a custom message (supports & color codes)
 - Permission: `fakejoin.use` (default: op)
  - /fakeleave <playerName> to broadcast a default yellow "<player> left the game" message
