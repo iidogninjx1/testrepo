@@ -1,3 +1,6 @@
+# AI DISCLAIMER:
+This ENTIRE plugin is AI. All credit is to GPT-5 mini!!
+
 # FakeJoin
 
 A small Bukkit plugin that broadcasts fake join messages to all players.
